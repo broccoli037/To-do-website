@@ -1,0 +1,149 @@
+*{
+    background: #A5DD9B;
+}
+header{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    color: #40679E;
+    width: 20%;
+    
+    
+}
+.menu{
+    width: 80%;
+    margin: auto;
+    float: right;
+    text-align: right;
+    font-size: larger;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.form{
+    border: 3px solid black;
+    padding: 1.5%;
+    margin: auto;
+    width: 80%;
+    background: #F2C18D;
+    border-radius: 20px;
+    display: flexbox;
+    font-family: "Nunito Sans", sans-serif;
+    border-top: none;
+    border-left: none;
+}
+.form h2{
+    background:none;
+}
+.form label{
+    background:none;
+    padding: 1%;
+    font-size: 1.5em;
+    margin-left: 2%;
+}
+.form input{
+    background:white;
+    padding: 1%;
+    border: 3px solid black;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    
+    font-size: 1.5em;
+}
+.form input[type=submit]{
+    margin-top: 1%;
+    margin-left: 2%;
+    background-color: #C5EBAA;
+    color: rgb(238, 243, 249);
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 10%;
+    border: 3px solid black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.form input[type=submit]:hover{
+    background-color: #A5DD9B;
+    border: 3px solid black;
+}
+#timeinp{
+    width: 10%;
+}
+#taskinp{
+    width: 40%;
+}
+.display{
+    border: 3px solid black;
+    padding: 1.5%;
+    padding-top: 0%;
+    margin: auto;
+    margin-top: 1%;
+    width: 80%;
+    background-color: #F6F193;
+    border-radius: 20px;
+    display: block;
+    font-family: "Nunito Sans", sans-serif;
+    border-top: none;
+    border-left: none;
+    text-align: left;
+    height: 350px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    
+    
+}
+.display table{
+    background-color: #F6F193;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    top: 0;
+    
+    
+    
+    
+    
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+.display table th{
+    background-color: #F6F193;
+    margin-top: 0%;
+    padding: 1%;
+    font-size: 1.4rem;
+    top: 0;
+    position: sticky;
+    
+}
+.display table td{
+    background-color: #F6F193;
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+    
+}
+/* .display table tr:hover{
+    background-color: #c5c176;
+    
+} */
+#tablehov:hover{
+    background-color: #c5c176;
+    
+}
+#task{
+    width: 80%;
+}
+#time{
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+button{
+    border-radius: 10px;
+    padding: 1em;
+}
